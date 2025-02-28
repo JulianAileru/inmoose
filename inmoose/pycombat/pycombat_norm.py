@@ -80,7 +80,7 @@ def postvar(sum2, n, a, b):
     return np.divide((np.multiply(0.5, sum2) + b), (np.multiply(0.5, n) + a - 1))
 
 
-def it_sol(sdat, g_hat, d_hat, g_bar, t2, a, b, conv=0.0001, exit_iteration=10e5):
+def it_sol(sdat, g_hat, d_hat, g_bar, t2, a, b, conv=0.0001, exit_iteration=1):
     """iterative solution for Empirical Bayesian method
 
     Arguments:
